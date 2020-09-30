@@ -11,20 +11,20 @@ html {
 #cougar {
   background: #FFD5AE;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
 #lion {
   background: #B26219;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
 #tiger {
   background: #FFBD82;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 article {
@@ -36,21 +36,25 @@ article {
 
 section {
   max-width: 600px;
-  margin: 0 1rem 0 1rem;
+  margin: 0 3rem;
+  flex: 1 1 0;
 }
 
 .text {
-  background: #FFF;
-  color: #000000;
+  color: #000;
   line-height: 1.5rem;
   font-size: 1.05rem;
-  padding: 1.5rem 2.5rem;
-  margin:1rem;
+  padding: 0;
+  margin: 0;
+  margin-right: 3rem;
 }
 
+
 h2 {
-  text-align: center;
+  margin: 0;
 }
+
+
 
 footer {
   text-align: center;
@@ -60,11 +64,12 @@ footer {
 }
 
 header {
-  padding: .5rem 2rem;
   background: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: .5rem 2rem;
+  margin: 0;
 }
 
 nav ul {
@@ -89,7 +94,7 @@ body {
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
-    margin-top: 1rem;
+    margin: 0;
 }
 
 /* ----- SUGGESTED COLORS -----
@@ -127,7 +132,7 @@ header a {
 }
 
 #lion a {
-  color: #005166;
+  color: #FFE100;
 }
 
 #lion a:hover {
